@@ -86,7 +86,7 @@
             //acá voy por el JSON
 
             async function astros() {
-                const consulta = await fetch("https://raw.githubusercontent.com/Paulinatobar/evaluacion-02/refs/heads/main/datos.json");
+                const consulta = await fetch("https://raw.githubusercontent.com/Paulinatobar/dno096-clase12/refs/heads/main/datos.json");
                 const data = await consulta.json();
                 console.log(data);
 
@@ -96,7 +96,7 @@
                     <div class="${d.signo} col mb-3">
                     <div class="card text-bg-danger">
 
-                    <img src="${d.foto}" class="card-img-top" alt="${d.fecha}">
+                    <img src="https://paulinatobar.github.io/dno096-clase12/img/${d.foto}" class="card-img-top" alt="${d.fecha}">
                     <div class="card-body">
                     <div class="card-100"
 
